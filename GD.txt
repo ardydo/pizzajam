@@ -64,5 +64,4 @@ Mecânicas:
 	Muitos dos obstáculos e recursos são abstratas para caralho, logo, não sei se vou conseguir desenhar mas é nóis mas além disso, também não sei se vai ficar claro. Na real isso pode ser uma feature: Nem tudo é exatamente o que parece e as interpretações podem ficar em aberto.
 
 	Como você pode perceber, completar o objetivo do jogo é bem fácil e falhar é mais complicado. Esse é exatamente o ponto do jogo.
-		Recursos:
-		Coisas que o porquinho precisa colidir para ganhar
+	
