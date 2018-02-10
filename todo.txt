@@ -1,0 +1,14 @@
+Tarefinhas
+
+Programação
+	Menu
+	Jogo
+		Dividir o jogo em grid de ?x?
+		Engine
+			Spawn
+				Spawna recurso ou obstáculo
+Arte
+
+Som (lol)
+
+
