@@ -1,0 +1,68 @@
+Um GDD rapidão
+
+Capital
+
+	O jogo é puro movimento. É um clone de snake com uma mensagem política simples por trás que vai acabar me custando qualquer chance de ganhar o prêmio da jam mas vamo lá, né?
+
+
+Mecânicas:
+	Você controla um porquilnho de cartola que precisa em diversas coisas (recursos) para acumular capital (ficar mais comprido) eventualmente evitando obstáculos para o "progresso".
+
+	VITÓRIA INVERTIDA:
+		Na realidade as telas de vitória e de derrota do jogo são invertidas.
+		Quando você completa o objetivo do jogo, aparece uma tela de game over pois o capitalismo venceu o que significa a eventual extinção de todos os recursos e o declínio (ou ascenção?) da população.
+		Quando você falha, significa que de alguma forma o capitalismo foi vencido e substituido por outro sistema (esperançosamente) melhor. Tipo comunismo.
+
+	Objetivo do jogo:
+		O objetivo do porquinho é ficar o maior que puder, custe o que custar. Para isso ele tem algumas ferramentas. Quando o porquinho colide com algum obstáculo, seus recursos são drenados e ele diminui de tamanho. O objetivo falha quando o porquinho "morrer" ou alguma coisa do tipo.
+		
+		
+	Benefícios do porquinho:
+		Usar Recursos:
+			Quando ele pega algum dos recursos ele ganha N em tamanho, aumentando o seu capital e esgotando o recurso
+			Tipos de recursos:
+				Empréstimos
+				Empréstimos
+				Empréstimos
+				Políticos
+				Estatal Sucateada
+				Mão de Obra barata
+				Mão de Obra escrava (rs)
+				População miserável
+				Recursos naturais:
+					Minas
+					Florestas
+					Aquíferos
+					Combustível
+				Latifúndios
+				Fake news
+	
+		Rendimento: O porquinho ganha capital simplesmente por ter capital. O capital cresce só por existir. Falta decidir se exponiencialmente ou não. Acho que não só pq eu não to numas de ficar pensando na formula.
+		
+		Priviledge time: Tipo bullet time. O porquinho usa de seus profundos bolsos para diminuir/parar o tempo para (fazer um mochilão pela europa/tirar um ano sabático) para poder pensar seus movimentos com calma. Quanto maior o capital, maior é a drenagem dos recursos/tempo até um determinado teto onde mesmo ativando o priviledge time, o porquinho continua ganhando dinheiro.
+
+		Lobby: O porquinhod a de presente dinheiro para algum político e em troca, são gerados diversos recursos no mapa. Na verdade, o Político pode ser um agente duplo: Você pode usar ele pra obter sucesso no objetivo ou pode também querer evita-lo caso queira falhar.
+
+		Cidadão de Bem: Um cidadão de bem é um membro exemplar da sociedade. Quando influênciado pelo poquinhos, irão tomar uma ação pelo bem (do bolso do porquinho). Ele pode dar um tira num manifestante, incendiar uma reserva, chacinar uma população indígena, destruir um prédio público, em fim, fazer algo positivo (para o bolso do porquinho) ou seja, remove um obstáculo.
+
+	Obstáculos:
+		Os obstáculos são coisas que aparecem na tela de jogo e somem depois de um tempo, pois num sistema que vive para os destruir, eles não conseguem sobreviver muito tempo mesmo. Podem ser qualquer coisa que atrapalhem o progresso honesto do porquinho empreendedor. Dependendo do tipo de obstáculo, uma quantidade diferente de capital é drenada numa colisão.
+		Tipos de obstáculos:
+			População indígena
+			Reserva florestal
+			Ocupação
+			Movimento Estudantil
+			Estudantes
+			Educação
+			Leis trabalhistas
+			Sindicato
+			Associação de moradores
+			Aquífero
+			Animais Silvestres
+
+
+	Muitos dos obstáculos e recursos são abstratas para caralho, logo, não sei se vou conseguir desenhar mas é nóis mas além disso, também não sei se vai ficar claro. Na real isso pode ser uma feature: Nem tudo é exatamente o que parece e as interpretações podem ficar em aberto.
+
+	Como você pode perceber, completar o objetivo do jogo é bem fácil e falhar é mais complicado. Esse é exatamente o ponto do jogo.
+		Recursos:
+		Coisas que o porquinho precisa colidir para ganhar
