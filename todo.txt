@@ -1,12 +1,18 @@
 Tarefinhas
 
+GD
+	Decidir tamanho da tela do jogo
+	
 Programação
-	Menu
+	(Menu)
+		seletor de dificuldade
 	Jogo
 		Dividir o jogo em grid de ?x?
 		Engine
 			Spawn
 				Spawna recurso ou obstáculo
+		Coletáveis
+			Conta steps
 Arte
 
 Som (lol)

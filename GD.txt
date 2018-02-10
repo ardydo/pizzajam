@@ -113,7 +113,7 @@ HUD:
 		Tempo para o próximo step
 		[dificuldade] 
 
-rlavours e outras coisas extras
+Flavours e outras coisas extras:
 	Coisas que talvez se sobrar um tempo eu coloque no jogo.
 
 	DIFICULDADE:
@@ -124,4 +124,11 @@ rlavours e outras coisas extras
 		Limites e chances de obstáculos e recursos
 		Multiplicador de perdas e lucros ( (pontuação*força*nível*mod)(1+(D*mod)) )
 		Tipo de borda (da dano ou não)
+		Tempo de vida dos coletáveis ( 1+(step(mod(dificuldade-1) )) )
+
+	Formula maluca de escalar com a dificuldade:
+		É uma formula que eu fiz pra calcular quanto aumentar/diminuir as coisas de acordo com a dificuldade.
+
+		multiplicador = (1+(step(mod(dificuldade-1) )))
+
 
