@@ -1,6 +1,5 @@
-# Pizza Jam entry!
+## Capital
 
-	Pizza jam is a jam about winning pizza I guess
+Acrue capital. It can't really be that hard, can it?
 
-## The theme is: Movement
-	It's a pretty wide theme so that means that I'll be brainstorming ideas for a long time. RIP
+
