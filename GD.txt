@@ -41,7 +41,7 @@ Mecânicas:
 		
 		Priviledge time: Tipo bullet time. O porquinho usa de seus profundos bolsos para diminuir/parar o tempo para (fazer um mochilão pela europa/tirar um ano sabático) para poder pensar seus movimentos com calma. Quanto maior o capital, maior é a drenagem dos recursos/tempo até um determinado teto onde mesmo ativando o priviledge time, o porquinho continua ganhando dinheiro.
 
-		Lobby: O porquinhod a de presente dinheiro para algum político e em troca, são gerados diversos recursos no mapa. Na verdade, o Político pode ser um agente duplo: Você pode usar ele pra obter sucesso no objetivo ou pode também querer evita-lo caso queira falhar.
+		Lobby: O porquinho da de presente dinheiro para algum político e em troca, são gerados diversos recursos no mapa. Na verdade, o Político pode ser um agente duplo: Você pode usar ele pra obter sucesso no objetivo ou pode também querer evita-lo caso queira falhar.
 
 		Cidadão de Bem: Um cidadão de bem é um membro exemplar da sociedade. Quando influênciado pelo poquinhos, irão tomar uma ação pelo bem (do bolso do porquinho). Ele pode dar um tira num manifestante, incendiar uma reserva, chacinar uma população indígena, destruir um prédio público, em fim, fazer algo positivo (para o bolso do porquinho) ou seja, remove um obstáculo.
 
@@ -65,3 +65,63 @@ Mecânicas:
 
 	Como você pode perceber, completar o objetivo do jogo é bem fácil e falhar é mais complicado. Esse é exatamente o ponto do jogo.
 	
+
+Funcionamento do jogo:
+	O jogo é dividido em uma grid de ?x? (precisa ser grande para ter bastante espaço pro porco ficar gigantesco)
+	O jogador começa em algum lugar (fixo? aleatório?)
+	São spawnado alguns recursos e obstáculos (seguindo umas regras).
+	Depois de X tempo OU quando o jogador aperta uma direção o jogo avança um step e algumas coisas acontecem:
+		A engine vê se spawna coisas novas
+		O tempo de vida dos recursos e obstáculos diminuem.
+		O porco anda:
+			na direção que ta olhando, ou
+			na direção apertada pelo jogador (direção que foi apertada e não a que ESTÁ apertada para evitar que o jogador se mate logo no começo segurando alguma direção)
+
+Regras do spawner:
+	O número da dificuldade serve para regular (D)
+	Limite de recursos = máximo/D (quando maior a dificuldade, menos recursos)
+	Limite de obstáculos = máximo*D
+	rola um dado no step, se sucesso e nenhum dos limites estiver atingido, rola um dado para decidir o que spawnar(do contrário spawna o outro):
+		chances do dado:
+			1*D obstáculo
+			1/D recurso
+
+Movimentação do porco:
+	Anda pra frente durante o step ou na direção apropriada quando apertada a seta
+	Dependendo da dificuldade, colide com a borda da tela ou não (pq eu não vou fazer essa porra dar wrap não que não to numas)
+	Quando se movimenta acontecem três coisas:
+		a cabeça do porco avança um bloco
+		o penultimo bloco do porco se movimenta para a posição antiga do porco (ao invés de movimentar todos os pedaços)
+		o rabo toma o lugar do penultimo bloco
+
+Obstáculos e Recursos:
+	basicamente a mesma coisa, a diferença é como afetam o capital.
+	tem uma pontuação base e dois multiplicadores
+		nível: a "força" do coletável. de 1-??
+		mod: 1 para recursos ou -1 para obstáculos.
+
+Porcação do porco:
+	A cada X capital ele ganha um segmento novo. Provavelmente é melhor fazer exponenciamente pra poder usar números mais absurdos quanto mais próximo do final ficar o jogo.
+	Durante um step, o porco verifica se o capital atingiu um novo patamar e reage de acordo:
+		se diminui, perde um segmento em forma de bacon
+		se aumentou, quando andar um bloco, deixa um outro no lugar.
+
+HUD:
+	Display simples na tela:
+		Capital acumulado.
+		Ganho por step (interest - privilegio_ligado(privilegio_custo)
+		Tempo para o próximo step
+		[dificuldade] 
+
+rlavours e outras coisas extras
+	Coisas que talvez se sobrar um tempo eu coloque no jogo.
+
+	DIFICULDADE:
+		A mais fácil é trump pq uma pessoa que faz tudo aquilo de merda e ainda vira presidente dos EUA só pode ta jogando no fácil.
+	
+	Diculdade afeta:
+		Timer do step (timer/D)
+		Limites e chances de obstáculos e recursos
+		Multiplicador de perdas e lucros ( (pontuação*força*nível*mod)(1+(D*mod)) )
+		Tipo de borda (da dano ou não)
+
