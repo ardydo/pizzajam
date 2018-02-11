@@ -18,6 +18,7 @@ run/name="Capitalism"
 [autoload]
 
 global="*res://scripts/global.gd"
+signalManager="*res://scripts/signalManager.gd"
 
 [display]
 
