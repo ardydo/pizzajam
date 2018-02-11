@@ -1,7 +1,6 @@
 extends Control
 
-var savegame = file.new()
-var save_path = "user://savegame.save"
+var os = OS.get_name()
 
 # reload scene
 func reload():
@@ -9,7 +8,8 @@ func reload():
 
 
 func _ready():
-	pass
+	if os != "Html5":
+		OS.set_window_maximized(true)
 
 func _input(event):
 	# quit
