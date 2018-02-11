@@ -5,3 +5,6 @@ signal step
 
 func _ready():
 	pass
+
+func eStep():
+	emit_signal("step")
