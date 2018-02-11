@@ -8,6 +8,7 @@ func reload():
 
 
 func _ready():
+	set_process_input(true)
 	if os != "Html5":
 		OS.set_window_maximized(true)
 
