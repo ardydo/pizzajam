@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/bad stuff.png-2cd5a4e7bddb6072988678247abe22d0.stex"
+
+[deps]
+
+source_file="res://assets/bad stuff.png"
+source_md5="3df9326770cb886a6a9601c36ff5948d"
+
+dest_files=[ "res://.import/bad stuff.png-2cd5a4e7bddb6072988678247abe22d0.stex" ]
+dest_md5="1bea0c82f1cb306f7a78dd619bc537d4"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

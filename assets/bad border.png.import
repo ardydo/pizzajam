@@ -1,0 +1,32 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/bad border.png-6ab6c08a05ae8198a713f642fc31afa0.stex"
+
+[deps]
+
+source_file="res://assets/bad border.png"
+source_md5="18367da7e98e5d6141d12020e1d556fe"
+
+dest_files=[ "res://.import/bad border.png-6ab6c08a05ae8198a713f642fc31afa0.stex" ]
+dest_md5="e68df65e34da169735265d538195d590"
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
