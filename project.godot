@@ -12,6 +12,7 @@ config_version=3
 
 config/name="New Game Project"
 config/icon="res://icon.png"
+run/name="Capitalism"
 
 [rendering]
 
