@@ -22,4 +22,5 @@ func go():
 
 func turno():
 	print("step signal recieved") 
+	timer.start()
 	pass
