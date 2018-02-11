@@ -20,4 +20,5 @@ global="*res://scripts/global.gd"
 
 [rendering]
 
+environment/default_clear_color=Color( 0.584314, 0.780392, 0.92549, 1 )
 environment/default_environment="res://default_env.tres"
