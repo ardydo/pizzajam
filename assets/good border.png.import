@@ -10,7 +10,7 @@ source_file="res://assets/good border.png"
 source_md5="a89ac34367636fefe1c3e5355828a63a"
 
 dest_files=[ "res://.import/good border.png-1a14710b9632d1dec45bce8100323a9c.stex" ]
-dest_md5="1987c80fb812c695eeffc61e10ea9d4c"
+dest_md5="f9d74c17fa6197f1a40ae56d7e9319cb"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

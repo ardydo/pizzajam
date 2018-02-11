@@ -10,7 +10,7 @@ source_file="res://assets/goodstuff.png"
 source_md5="47015fc67fd88fb152c239239003bde1"
 
 dest_files=[ "res://.import/goodstuff.png-f3ee27d85143a432bb42e019783e0c36.stex" ]
-dest_md5="c23ea26f463383e928acf376c93c7792"
+dest_md5="9df0b72be8beb83370b5b1f64b831787"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

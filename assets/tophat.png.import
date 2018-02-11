@@ -10,7 +10,7 @@ source_file="res://assets/tophat.png"
 source_md5="9de046643ee37c0a5a0be33722856e96"
 
 dest_files=[ "res://.import/tophat.png-7a210baa21bcfb44352bb495d8211183.stex" ]
-dest_md5="be93f4109abdb16a74d2c6ca019d3767"
+dest_md5="65dfe43af0c3cee1e28b1b67d49037f8"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

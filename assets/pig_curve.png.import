@@ -10,7 +10,7 @@ source_file="res://assets/pig_curve.png"
 source_md5="e0dde467345d57e38c4d28993a8ef2ca"
 
 dest_files=[ "res://.import/pig_curve.png-dd1bd68be4509027459e4c2f01ad5e50.stex" ]
-dest_md5="3b61790c99526dec5b468715f9422981"
+dest_md5="66ea8957a09d6c64b3b169b1ca731584"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

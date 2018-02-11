@@ -10,7 +10,7 @@ source_file="res://assets/bad stuff.png"
 source_md5="3df9326770cb886a6a9601c36ff5948d"
 
 dest_files=[ "res://.import/bad stuff.png-2cd5a4e7bddb6072988678247abe22d0.stex" ]
-dest_md5="1bea0c82f1cb306f7a78dd619bc537d4"
+dest_md5="9d479aab43b910b3b92233d5401ed7e9"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0

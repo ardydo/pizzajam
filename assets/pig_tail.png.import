@@ -10,7 +10,7 @@ source_file="res://assets/pig_tail.png"
 source_md5="01bab4546e0005da04c287b5007f75af"
 
 dest_files=[ "res://.import/pig_tail.png-5c4cfd9ea12eec6e845927c43be4fe20.stex" ]
-dest_md5="c7d8a0b80cf52bf4671286355fb41b52"
+dest_md5="2ebd2330d4e4bd5eaa4864a997eaef8e"
 
 [params]
 
@@ -19,7 +19,7 @@ compress/lossy_quality=0.7
 compress/hdr_mode=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
@@ -28,5 +28,5 @@ process/premult_alpha=false
 process/HDR_as_SRGB=false
 stream=false
 size_limit=0
-detect_3d=true
+detect_3d=false
 svg/scale=1.0
