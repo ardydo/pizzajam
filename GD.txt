@@ -38,7 +38,7 @@ Mecânicas:
 				Fake news
 	
 		Rendimento: O porquinho ganha capital simplesmente por ter capital. O capital cresce só por existir. Falta decidir se exponiencialmente ou não. Acho que não só pq eu não to numas de ficar pensando na formula.
-		
+
 		Priviledge time: Tipo bullet time. O porquinho usa de seus profundos bolsos para diminuir/parar o tempo para (fazer um mochilão pela europa/tirar um ano sabático) para poder pensar seus movimentos com calma. Quanto maior o capital, maior é a drenagem dos recursos/tempo até um determinado teto onde mesmo ativando o priviledge time, o porquinho continua ganhando dinheiro.
 
 		Lobby: O porquinho da de presente dinheiro para algum político e em troca, são gerados diversos recursos no mapa. Na verdade, o Político pode ser um agente duplo: Você pode usar ele pra obter sucesso no objetivo ou pode também querer evita-lo caso queira falhar.
@@ -47,18 +47,6 @@ Mecânicas:
 
 	Obstáculos:
 		Os obstáculos são coisas que aparecem na tela de jogo e somem depois de um tempo, pois num sistema que vive para os destruir, eles não conseguem sobreviver muito tempo mesmo. Podem ser qualquer coisa que atrapalhem o progresso honesto do porquinho empreendedor. Dependendo do tipo de obstáculo, uma quantidade diferente de capital é drenada numa colisão.
-		Tipos de obstáculos:
-			População indígena
-			Reserva florestal
-			Ocupação
-			Movimento Estudantil
-			Estudantes
-			Educação
-			Leis trabalhistas
-			Sindicato
-			Associação de moradores
-			Aquífero
-			Animais Silvestres
 
 
 	Muitos dos obstáculos e recursos são abstratas para caralho, logo, não sei se vou conseguir desenhar mas é nóis mas além disso, também não sei se vai ficar claro. Na real isso pode ser uma feature: Nem tudo é exatamente o que parece e as interpretações podem ficar em aberto.
