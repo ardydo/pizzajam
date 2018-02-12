@@ -113,9 +113,6 @@ HUD:
 		Tempo para o próximo step
 		[dificuldade] 
 
-Flavours e outras coisas extras:
-	Coisas que talvez se sobrar um tempo eu coloque no jogo.
-
 	DIFICULDADE:
 		A mais fácil é trump pq uma pessoa que faz tudo aquilo de merda e ainda vira presidente dos EUA só pode ta jogando no fácil.
 	
