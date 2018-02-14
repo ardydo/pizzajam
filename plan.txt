@@ -1,0 +1,12 @@
+Qual é o plano?
+
+	O plano é fazer um joguinho maneiro completinho para vender por algum valor simbólico (tipo 1/2 US$).
+
+PLATAFORMAS: hmmtl5, windows e linux
+DISTRIBUIÇÃO: itch e torrent (versão paga vai estar disponível, só dar uma fuçada)
+CUSTO: mínimo de 1 ou 2 doláres mas doações livres
+
+DEMO:
+	O jogo em html5 vai ser apenas um demo. Para o jogo completo é necessário que se compre a versão de download
+	[Considerar alguma maneira alternativa de habilitar o jogo completo no navegador(um cheat code, sei lá)]
+	"Alimente o porco capitalista para continuar"
