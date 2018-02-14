@@ -8,6 +8,15 @@ $ baixa ||
 
 GD
 X	Decidir tamanho da tela do jogo ~> 128x128
+
+Telas
+	$ Splash
+	Menu
+	$ Seletor de dificuldade
+	Jogo
+	Fim de jogo
+		Vitória
+		Derrota
 	
 Programação
 	$ Menu
@@ -26,6 +35,7 @@ Programação
 				Animações e tal	
 		Engine
 			Spawn (Spawna recurso ou obstáculo)
+			Limitador de Demo (detecta se html5 e encerra o jogo antes do esperado se sim com um aviso para comprar a versão completa)
 		Coletáveis
 			Tempo de vida
 			Pontuação
@@ -40,6 +50,7 @@ Programação
 			quanto vai mudar no próximo turno
 		Dificuldade
 		$ Atual/Max de obstáculos e recursos
+		Turnos
 
 Arte
 	! Mudar paleta de cores pra do GBC

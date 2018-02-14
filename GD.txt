@@ -98,6 +98,6 @@ HUD:
 	Formula maluca de escalar com a dificuldade:
 		É uma formula que eu fiz pra calcular quanto aumentar/diminuir as coisas de acordo com a dificuldade.
 
-		multiplicador = (1+(step(mod(dificuldade-1) )))
+		multiplicador = (1+(step(mod(dificuldade-1) ))) [arranjar um jeito de multiplicar pelo rank]
 
 
