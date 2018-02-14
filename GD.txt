@@ -19,24 +19,8 @@ Mecânicas:
 		
 	Benefícios do porquinho:
 		Usar Recursos:
-			Quando ele pega algum dos recursos ele ganha N em tamanho, aumentando o seu capital e esgotando o recurso
-			Tipos de recursos:
-				Empréstimos
-				Empréstimos
-				Empréstimos
-				Políticos
-				Estatal Sucateada
-				Mão de Obra barata
-				Mão de Obra escrava (rs)
-				População miserável
-				Recursos naturais:
-					Minas
-					Florestas
-					Aquíferos
-					Combustível
-				Latifúndios
-				Fake news
-	
+			Quando ele pega algum dos recursos ele ganha N em tamanho, aumentando o seu capital e esgotando o recurso.
+		
 		Rendimento: O porquinho ganha capital simplesmente por ter capital. O capital cresce só por existir. Falta decidir se exponiencialmente ou não. Acho que não só pq eu não to numas de ficar pensando na formula.
 
 		Priviledge time: Tipo bullet time. O porquinho usa de seus profundos bolsos para diminuir/parar o tempo para (fazer um mochilão pela europa/tirar um ano sabático) para poder pensar seus movimentos com calma. Quanto maior o capital, maior é a drenagem dos recursos/tempo até um determinado teto onde mesmo ativando o priviledge time, o porquinho continua ganhando dinheiro.

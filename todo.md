@@ -10,10 +10,10 @@ GD
 X	Decidir tamanho da tela do jogo ~> 128x128
 	
 Programação
-	(Menu)
+	$ Menu
 		seletor de dificuldade
 	Jogo
-X	Dividir o jogo em grid de ?x? ~> 8x8
+	X	Dividir o jogo em grid de ?x? ~> 8x8
 		Porco
 		X	Controlar a cabeça
 			Colisão
@@ -30,6 +30,10 @@ X	Dividir o jogo em grid de ?x? ~> 8x8
 			Tempo de vida
 			Pontuação
 			Rank
+				Sistema pra escolher o coletável de acordo com o rank
+					Na verdade é só fazer um coletável só e fazer ele escolher o sprite de grupos separados pelo rank. Pretty simple
+				Display
+			$ Floaty
 	GUI
 		Timer pro próximo turno
 		Capital
@@ -38,8 +42,18 @@ X	Dividir o jogo em grid de ?x? ~> 8x8
 		$ Atual/Max de obstáculos e recursos
 
 Arte
+	! Mudar paleta de cores pra do GBC
 X	Placeholders
 X	Porquinho
+	$ Dificuldade 
+		Quadradinhos de pele
+		x	Preto
+		x	Branco
+			Branco com peruquinha do Trump
+		Seta seletora
+	Borders
+		Good
+		Bad
 	Coletáveis
 		Recursos
 			Empréstimos
@@ -70,7 +84,22 @@ X	Porquinho
 
 
 Som (lol)
+	Porquinho
+		Oink
+		Andar
+		Colidir
+		Coletar bom
+		Coletar ruim
+	Engine
+		Criar bom
+		Criar ruim
+
+Música
+	Menu
+	Jogo
 
 Outros (coisa do git e essas coisas. sei lá.)
 	Migrar os docs para uma pasta ./doc
-	Colocar licença do github
+	Github
+		Colocar uma licença
+		Atualizar readme
