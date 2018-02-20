@@ -6,6 +6,11 @@ X completa
 $ baixa ||
 ? dúvida/sei lá
 
+Extra priority
+	Migrar tudo pro Trello
+	Mudar resolução das coisas pra 16*16
+		tela pra 256x256
+
 GD
 X	Decidir tamanho da tela do jogo ~> 128x128
 
