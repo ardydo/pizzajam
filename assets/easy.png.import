@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pig_curve.png-dd1bd68be4509027459e4c2f01ad5e50.stex"
+path="res://.import/easy.png-a7d75cbfb6d227f77adf571fc6b0d926.stex"
 
 [deps]
 
-source_file="res://assets/pig_curve.png"
-source_md5="07369ee11ea5bfc1d05c82d03538fe55"
+source_file="res://assets/easy.png"
+source_md5="b1c4da264a8f91c06d6c55242e382c96"
 
-dest_files=[ "res://.import/pig_curve.png-dd1bd68be4509027459e4c2f01ad5e50.stex" ]
-dest_md5="2538961060803aa1ea478fe13441995b"
+dest_files=[ "res://.import/easy.png-a7d75cbfb6d227f77adf571fc6b0d926.stex" ]
+dest_md5="24b1680cc10a3a5858e38b570862d952"
 
 [params]
 
