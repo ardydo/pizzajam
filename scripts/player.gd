@@ -25,8 +25,6 @@ var dist = 8
 ## direction to walk
 var direction = -1
 
-onready var sprites = $Sprites
-
 func _ready():
 	# enabling the raycasts
 	for item in rays:
@@ -84,8 +82,26 @@ func move(dir):
 	# resetting the directon
 	direction = -1
 
+# rotating
 func rotate(dir):
-	pass
-
+	# offset to look at
+	var offset = 1
+	# actual point to look at
+	var t
+	# determinating the point to look at
+	match dir:
+		RIGHT:
+			t = Vector2(offset,0)
+		LEFT:
+			t = Vector2(-offset,0)
+		UP:
+			t = Vector2(0,-offset)
+		DOWN:
+			t = Vector2(0,offset)
+	
+	print(t)
+	# looking at it
+	$Sprites.look_at(to_global(t))
+		
 func damage():
 	print("ouchies")
