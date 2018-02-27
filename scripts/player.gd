@@ -1,95 +1,91 @@
 extends Node2D
 
-# moving vars
+# directions enuns
+enum DIRECTIONS {
+	RIGHT,
+	LEFT,
+	UP,
+	DOWN
+	}
+
+# collision variables
+## storing raycasts
+onready var RRight = $RayRight
+onready var RLeft = $RayLeft
+onready var RUp = $RayUp
+onready var RDown = $RayDown
+## an array for easier manipulaton
+onready var rays = [RRight, RLeft, RUp, RDown]
+## pair array to test if it can move
+## I prolly could joint then some way but this is something for another day
+var canMove = [false, false, false, false]
+
+## distance to walk
 var dist = 8
-var destination = Vector2(0,0)
-var moving = false
-
-
-#rays stuff
-onready var RayRight = $RayRight
-onready var RayLeft = $RayLeft
-onready var RayUp = $RayUp
-onready var RayDown = $RayDown
-onready var rays = [RayRight, RayLeft, RayUp, RayDown]
-var currentRay
-
-var rightMove
-var leftMove
-var upMove
-var downMove
-onready var dirMove = [rightMove, leftMove,upMove,downMove]
+## direction to walk
+var direction = -1
 
 onready var sprites = $Sprites
 
 func _ready():
-	print(rays)
-	set_process_input(true)
-	set_physics_process(true)
-	
-	# add exception to arrays
-	for item in rays:  
+	# enabling the raycasts
+	for item in rays:
 		item.enabled = true
-	
-	for item in dirMove:
-		item = false
-	
-	print(dirMove.0)
-	
+		print(item.enabled)
+
 func _input(event):
-	var l = Input.is_action_just_pressed("ui_left")
-	var r = Input.is_action_just_pressed("ui_right")
-	var u = Input.is_action_just_pressed("ui_up")
-	var d = Input.is_action_just_pressed("ui_down")
+	# key storing
+	if Input.is_action_just_pressed("ui_left") :
+		direction = LEFT
+	if Input.is_action_just_pressed("ui_right")  :
+		direction = RIGHT
+	if Input.is_action_just_pressed("ui_up") :
+		direction = UP
+	if Input.is_action_just_pressed("ui_down"):
+		direction = DOWN
 	
-	if l or r or u or d:
-		moving = true
-		signalManager.eStep()
-		if l:
-			sprites.rotation_degrees = 0
-			sprites.scale = Vector2(-1,1)
-			destination = (Vector2(-dist,0))
-		elif r:
-			sprites.rotation_degrees = 0
-			sprites.scale = Vector2(1,1)
-			destination = (Vector2(dist,0))
-		
-		if u:
-			sprites.rotation_degrees= 90
-			sprites.scale = Vector2(-1,1)
-			destination = (Vector2(0,-dist))
-			
-		elif d:
-			sprites.rotation_degrees = 90
-			sprites.scale = Vector2(1,1)
-			destination = (Vector2(0,dist))
-	else:
-		moving = false
+	# if it should move then do
+	if not direction == -1:
+		move(direction)
 
-func _physics_process(delta):
-	if moving:
-		for item in rays:
-			if item.is_colliding():
-				dirMove.item = true
-				print(item.is_colliding())
-			else:
-				dirMove.item = false
-	moving = false
-
-	if moving:
-		print(currentRay)
-		print(currentRay.is_colliding())
-		if currentRay.is_colliding():
-			moving = false
+func move(dir):
+	# move availability test
+	for item in rays:
+		var pos = rays.find(item)
+		if item.is_colliding():
+			canMove[pos] = false
 		else:
-			move(destination)
-	pass
+			canMove[pos] = true
 	
-func move(destination):
-	translate(destination)
-	destination = Vector2(0,0)
-	moving = false
-	pass
+	print("moving!")
+	# rotating
+	rotate(dir)
+	# can I move?
+	var safe = canMove[dir]
+	# if I can then check where to
+	if safe:
+		var d
+		match dir:
+			LEFT:
+				d = Vector2(-dist,0)
+			RIGHT:
+				d = Vector2(dist,0)
+			UP:
+				d = Vector2(0,-dist)
+			DOWN:
+				d = Vector2(0,dist)
+		# actually moving
+		translate(d)
 	
-func _draw():
-	draw_line(Vector2(0,0), destination, Color(25,25,25),1,false)
+	# else cause the apropriate damage
+	else:
+		damage()
+
+	# resetting the directon
+	direction = -1
+
+func rotate(dir):
+	pass
+
+func damage():
+	print("ouchies")
