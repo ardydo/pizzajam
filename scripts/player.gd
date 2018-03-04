@@ -21,7 +21,7 @@ onready var rays = [RRight, RLeft, RUp, RDown]
 var canMove = [false, false, false, false]
 
 ## distance to walk
-var dist = 8
+var dist = 16
 ## direction to walk
 var direction = -1
 
