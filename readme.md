@@ -13,4 +13,4 @@ Unless mentioned otherwise, all art assets (files in assets/ and with the .ase a
 
 #### Exceptions
 
-[Savior fonts](https://www.dafont.com/savior.font?a=on&l[]=10&l[]=1) are distributed without any license. Whoever, the source site indicates that they are 100% free.
+Pixel Operator fonts are distributed under SIL OPEN FONT LICENSE. For more details you can find the actual license in the same folder as the font asset.
