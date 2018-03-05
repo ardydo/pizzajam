@@ -10,7 +10,7 @@ config_version=3
 
 [application]
 
-config/name="New Game Project"
+config/name="Capital"
 run/main_scene="res://scenes/splash.tscn"
 config/icon="res://icon.png"
 run/name="Capitalism"
